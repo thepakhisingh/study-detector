@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+.claude/
+
+# Auto-downloaded YOLO weights -- large binary, not source, re-downloads on first run
+models/*.pt

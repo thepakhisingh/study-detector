@@ -1,0 +1,10 @@
+opencv-python>=4.9.0
+# Pinned: mediapipe 0.10.18+ (and all 1.x releases) removed the legacy
+# mp.solutions.{face_mesh,hands} API that this project's detectors are
+# built on, in favor of the newer Tasks API (FaceLandmarker/HandLandmarker,
+# which require separately downloaded .task model bundles). 0.10.9 is the
+# last version verified here to still ship the classic solutions API.
+mediapipe==0.10.9
+ultralytics>=8.2.0
+pygame>=2.5.2
+numpy>=1.26.0,<2.0
